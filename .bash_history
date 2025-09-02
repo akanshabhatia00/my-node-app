@@ -60,3 +60,18 @@ groups
 docker-compose up -d
 docker ps
 exit
+cd ~
+cd my-node-app
+pwd
+ls
+git init
+git config --global user.name "Akanshabhatia00"
+git config --global user.email "bhatiaankansha2004@gmail.com"
+git remote add origin https://github.com/<akanshabhatia00>/my-node-app.git
+git remote add origin https://github.com/<Akanshabhatia00>/my-node-app.git
+git init
+git remote add origin https://github.com/akanshabhatia00/my-node-app.git
+git add .
+git commit -m "First commit - Node.js app"
+git branch -M main
+git push origin main
